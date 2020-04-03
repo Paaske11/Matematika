@@ -23,29 +23,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.618" />
 
-    <ImageView
-        android:id="@+id/LogoLoginScreen"
-        android:layout_width="255dp"
-        android:layout_height="308dp"
-        android:adjustViewBounds="true"
-        android:cropToPadding="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62"
-        app:srcCompat="@drawable/rævudenbaggrund" />
-
-    <ImageView
-        android:id="@+id/MatematikaFrontScreen"
-        android:layout_width="468dp"
-        android:layout_height="74dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19999999"
-        app:srcCompat="@drawable/Overskrift" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
