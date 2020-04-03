@@ -14,14 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //this is a change
-        //This is a new change
-
-
-
-
-        //dance For me
-
+        //Robot change 4
+        //Robot change 3
 
 
     }
