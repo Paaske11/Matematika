@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">P2Matematika</string>
+    <string name="MatematikaTextView">Matematika</string>
 </resources>
