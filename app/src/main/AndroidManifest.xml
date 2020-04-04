@@ -11,20 +11,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
 
-
         <activity
             android:name=".MainActivity"
             android:screenOrientation="sensorLandscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             tools:ignore="LockedOrientationActivity">
-
-
-
-
-
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Brugerside"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
