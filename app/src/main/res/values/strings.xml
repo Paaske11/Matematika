@@ -1,4 +1,10 @@
 <resources>
+    //Front page
     <string name="app_name">P2Matematika</string>
     <string name="MatematikaTextView">Matematika</string>
+    <string name="loginButton2">Login</string>
+    <string name="Matematika">Matematika</string>
+    <string name="Slogan">En ny måde at lære matematik på</string>
+    <string name="Username">Brugernavn</string>
+    <string name="Password">Kodeord</string>
 </resources>
