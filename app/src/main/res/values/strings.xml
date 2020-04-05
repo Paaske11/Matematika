@@ -7,4 +7,5 @@
     <string name="Slogan">En ny måde at lære matematik på</string>
     <string name="Username">Brugernavn</string>
     <string name="Password">Kodeord</string>
+    <string name="Unilogin">Login med Uni-login</string>
 </resources>
