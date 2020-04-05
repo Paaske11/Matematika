@@ -8,4 +8,8 @@
     <string name="Username">Brugernavn</string>
     <string name="Password">Kodeord</string>
     <string name="Unilogin">Login med Uni-login</string>
+
+    <string name="title_activity_tagtest">activity_tagtest</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
