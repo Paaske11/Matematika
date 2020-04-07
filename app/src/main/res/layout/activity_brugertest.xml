@@ -10,8 +10,9 @@
     <Button
         android:id="@+id/DinProfilbtn"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Din profil" />
+        android:layout_height="60dp"
+        android:text="Din profil"
+        android:textSize="20sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -133,6 +134,100 @@
                 android:layout_width="455dp"
                 android:layout_height="80dp"
                 android:background="@drawable/questionthree" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere spørgsmål"
+                    android:textSize="42dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere spørgsmål"
+                    android:textSize="42dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere Spørgsmål"
+                    android:textSize="42dp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"/>
+            </RadioGroup>
+            <ImageView
+
+                android:layout_width="472dp"
+                android:layout_height="77dp"
+                android:background="@drawable/scrollned" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/questionfour"
+                android:layout_width="455dp"
+                android:layout_height="80dp"
+                android:background="@drawable/questionfour" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere spørgsmål"
+                    android:textSize="42dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere spørgsmål"
+                    android:textSize="42dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:shadowColor="#FFFFFF"
+                    android:text="Et længere Spørgsmål"
+                    android:textSize="42dp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"/>
+            </RadioGroup>
+            <ImageView
+
+                android:layout_width="472dp"
+                android:layout_height="77dp"
+                android:background="@drawable/scrollned" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/questionfive"
+                android:layout_width="455dp"
+                android:layout_height="80dp"
+                android:background="@drawable/questionfive" />
 
             <RadioGroup
                 android:layout_width="wrap_content"

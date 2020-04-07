@@ -13,6 +13,7 @@ public class Brugertest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brugertest);
+        dinprofilbtn();
     }
     public void dinprofilbtn() {
         Button dinprofilbtn = (Button) findViewById(R.id.DinProfilbtn);
