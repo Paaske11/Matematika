@@ -103,4 +103,8 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+
+    <string name="title_activity_introbrugerside">Introbrugerside</string>
+    <string name="Forklaring">Når du trykker på knappen nedenunder starter der et spørgeskema på 16 spørgsmål</string>
+    <string name="Forklaring2">Når du har svaret på alle 16 spørgsmål vil du få at vide hvilken en læringsstil som du foretrækker</string>
 </resources>
