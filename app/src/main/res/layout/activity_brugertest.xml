@@ -81,7 +81,7 @@
 
             <ImageView
                 android:id="@+id/questionTwo"
-                android:layout_width="455dp"
+                android:layout_width="472dp"
                 android:layout_height="80dp"
                 android:background="@drawable/questiontwo" />
 
@@ -95,7 +95,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere Spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -153,7 +153,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere Spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
                 <Space
                     android:layout_width="wrap_content"
                     android:layout_height="100dp"/>
@@ -192,7 +192,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -208,7 +208,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere Spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
                 <Space
                     android:layout_width="wrap_content"
                     android:layout_height="100dp"/>
@@ -239,7 +239,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -247,7 +247,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -255,7 +255,7 @@
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
                     android:text="Et længere Spørgsmål"
-                    android:textSize="42dp" />
+                    android:textSize="42sp" />
                 <Space
                     android:layout_width="wrap_content"
                     android:layout_height="100dp"/>
