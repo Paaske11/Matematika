@@ -15,7 +15,7 @@ public class Brugertest extends AppCompatActivity {
         setContentView(R.layout.activity_brugertest);
         dinprofilbtn();
     }
-    public void dinprofilbtn() {
+    private void dinprofilbtn() {
         Button dinprofilbtn = (Button) findViewById(R.id.DinProfilbtn);
         dinprofilbtn.setOnClickListener(new View.OnClickListener() {
             @Override
