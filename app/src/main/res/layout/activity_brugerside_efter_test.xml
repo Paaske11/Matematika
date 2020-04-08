@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#AEDCF7"
-    tools:context=".Brugerside">
+    tools:context=".BrugersideEfterTest">
 
     <TextView
         android:id="@+id/HejBrugersideTextView"
@@ -62,10 +62,9 @@
         app:layout_constraintVertical_bias="0.879" />
 
     <ImageButton
-        android:id="@+id/alphaOpgaver"
+        android:id="@+id/OpgaverBtn"
         android:layout_width="349dp"
         android:layout_height="338dp"
-        android:alpha="@dimen/alphachange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.876"
@@ -75,10 +74,9 @@
         app:srcCompat="@drawable/opgaverknap" />
 
     <ImageButton
-        android:id="@+id/alphaLaeringbtn"
+        android:id="@+id/LaeringBtn"
         android:layout_width="388dp"
         android:layout_height="112dp"
-        android:alpha="@dimen/alphachange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.135"

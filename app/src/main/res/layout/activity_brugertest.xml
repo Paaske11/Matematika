@@ -258,8 +258,13 @@
                     android:textSize="42sp" />
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="100dp"/>
+                    android:layout_height="50dp"/>
             </RadioGroup>
+            <ImageButton
+                android:id="@+id/afsluttest"
+                android:layout_width="480dp"
+                android:layout_height="120dp"
+                android:background="@drawable/afslut"/>
 
 
         </LinearLayout>

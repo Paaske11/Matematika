@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class Brugerside extends AppCompatActivity {
+    public double alpha = 0.3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
