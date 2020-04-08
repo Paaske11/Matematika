@@ -44,7 +44,6 @@ public class Brugertest extends AppCompatActivity {
         final ImageButton afsluttest = (ImageButton) findViewById(R.id.afsluttest);
         afsluttest.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View v) {
 
                 startActivity(new Intent(Brugertest.this,BrugersideEfterTest.class));
