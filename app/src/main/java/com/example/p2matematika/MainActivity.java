@@ -11,12 +11,11 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    SharedPreferences appIntro = null;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Knap der logger brugeren ind
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            if(!Brugertest.gettestDone()){
+            if(!Brugertest.testDone){
                 Intent LoginBruger = new Intent(getApplicationContext(), Brugerside.class);
                 startActivity(LoginBruger);
                 //Koden forneden sørger for man ikke kan komme tilbage til loginside
@@ -33,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
             else {
                 Intent LoginBruger = new Intent(getApplicationContext(), BrugersideEfterTest.class);
                 startActivity(LoginBruger);
+
+
             }
 
         }

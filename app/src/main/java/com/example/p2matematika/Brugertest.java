@@ -25,12 +25,6 @@ import javax.xml.parsers.ParserConfigurationException;
 public class Brugertest extends AppCompatActivity {
     public static boolean testDone = false;
 
-    private boolean isFinished;
-    public final static String SHARED_PREFS = "sharedPrefs";
-    public final static String ISFINISHED = "false";
-
-    private boolean trueFalse;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +33,7 @@ public class Brugertest extends AppCompatActivity {
 
         dinprofilbtn();
         afsluttest();
+
 
     }
 
@@ -68,10 +63,9 @@ public class Brugertest extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                // setTestDone(true);
-                Toast.makeText(Brugertest.this,"Test Done", Toast.LENGTH_LONG).show();
+                Toast.makeText(Brugertest.this,"Testen er færdiggjort", Toast.LENGTH_LONG).show();
                 startActivity(new Intent(Brugertest.this, BrugersideEfterTest.class));
-
-
+                testDone = true;
             }
 
 
