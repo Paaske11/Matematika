@@ -18,7 +18,7 @@ public class BrugersideEfterTest extends AppCompatActivity {
 
         logud();
         tagtesten();
-        Laeringsstil();
+        tagtesten();
 
     }
         // LogudKnappen
