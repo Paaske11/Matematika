@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+
         <activity
             android:name=".BrugersideEfterTest"
             android:screenOrientation="sensorLandscape"
@@ -21,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:screenOrientation="sensorLandscape"
@@ -76,6 +76,16 @@
         </activity>
         <activity
             android:name=".Forklarvisuel"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Vaelgopgaver"
             android:configChanges="orientation"
             android:screenOrientation="sensorLandscape"
             tools:ignore="LockedOrientationActivity">

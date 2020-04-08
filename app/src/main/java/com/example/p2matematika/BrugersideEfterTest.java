@@ -56,7 +56,12 @@ public class BrugersideEfterTest extends AppCompatActivity {
             }
 
         });
-        //OPGAVEKNAP KOMMER HER
-    }
 
+        OpgaveBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BrugersideEfterTest.this, Vaelgopgaver.class));
+            }
+        });
+    }
 }

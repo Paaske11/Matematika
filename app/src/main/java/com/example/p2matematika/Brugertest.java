@@ -66,7 +66,6 @@ public class Brugertest extends AppCompatActivity {
         final ImageButton afsluttest = (ImageButton) findViewById(R.id.afsluttest);
         afsluttest.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View v) {
                // setTestDone(true);
                 Toast.makeText(Brugertest.this,"Test Done", Toast.LENGTH_LONG).show();
