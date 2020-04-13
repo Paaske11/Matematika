@@ -36,10 +36,12 @@
                 android:background="@drawable/questionone" />
 
             <RadioGroup
+                android:id="@+id/RgQuestion1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/Q1A1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -48,6 +50,7 @@
                     android:textSize="42dp" />
 
                 <RadioButton
+                    android:id="@+id/Q1A2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -56,6 +59,7 @@
                     android:textSize="42dp" />
 
                 <RadioButton
+                    android:id="@+id/Q1A3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -86,10 +90,12 @@
                 android:background="@drawable/questiontwo" />
 
             <RadioGroup
+                android:id="@+id/RgQuestion2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/Q2A1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -98,6 +104,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q2A2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -106,6 +113,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q2A3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -136,10 +144,12 @@
                 android:background="@drawable/questionthree" />
 
             <RadioGroup
+                android:id="@+id/RgQuestion3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/Q3A1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -148,6 +158,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q3A2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -156,6 +167,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q3A3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -183,10 +195,12 @@
                 android:background="@drawable/questionfour" />
 
             <RadioGroup
+                android:id="@+id/RgQuestion4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/Q4A1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -195,6 +209,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q4A2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -203,6 +218,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q4A3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -230,10 +246,12 @@
                 android:background="@drawable/questionfive" />
 
             <RadioGroup
+                android:id="@+id/RgQuestion5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/Q5A1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -242,6 +260,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q5A2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -250,6 +269,7 @@
                     android:textSize="42sp" />
 
                 <RadioButton
+                    android:id="@+id/Q5A3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
@@ -265,7 +285,9 @@
                 android:layout_width="480dp"
                 android:layout_height="120dp"
                 android:background="@drawable/afslut"/>
-
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"/>
 
         </LinearLayout>
 

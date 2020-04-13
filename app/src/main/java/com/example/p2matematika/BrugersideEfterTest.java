@@ -18,7 +18,9 @@ public class BrugersideEfterTest extends AppCompatActivity {
 
         logud();
         tagtesten();
-        tagtesten();
+        Laeringsstil();
+        
+
 
     }
         // LogudKnappen
@@ -40,6 +42,7 @@ public class BrugersideEfterTest extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(BrugersideEfterTest.this, Brugertest.class));
+
             }
         });
 

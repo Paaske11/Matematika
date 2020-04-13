@@ -13,6 +13,7 @@ public class Dinlaeringsstilvisuel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dinlaeringsstilvisuel);
+        dinside();
     }
 
     private void dinside() {
