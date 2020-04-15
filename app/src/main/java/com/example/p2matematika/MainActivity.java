@@ -1,14 +1,11 @@
 package com.example.p2matematika;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,18 +20,18 @@ public class MainActivity extends AppCompatActivity {
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            if(!Brugertest.testDone){
-                Intent LoginBruger = new Intent(getApplicationContext(), Brugerside.class);
+           // if(!Brugertest.testDone){
+                Intent LoginBruger = new Intent(getApplicationContext(), BrugersideEfterTest.class);
                 startActivity(LoginBruger);
                 //Koden forneden sørger for man ikke kan komme tilbage til loginside
                 finish();
-            }
-            else {
+           // }
+           /* else {
                 Intent LoginBruger = new Intent(getApplicationContext(), BrugersideEfterTest.class);
                 startActivity(LoginBruger);
 
 
-            }
+            }*/
 
         }
         });

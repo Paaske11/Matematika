@@ -1,28 +1,38 @@
 package com.example.p2matematika;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class BrugersideEfterTest extends AppCompatActivity {
 
+
+    @SuppressLint("Range")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_brugerside_efter_test);
+            setContentView(R.layout.activity_brugerside_efter_test);
 
-        logud();
-        tagtesten();
-        Laeringsstil();
+            logud();
+            tagtesten();
+
+
+        // Skifter alpha, og gør de andre knapper brugelige
+        if (Brugertest.testDone == true) {
+            ImageButton OpgaveKnap = (ImageButton) findViewById(R.id.OpgaverBtn);
+            ImageButton Laeringknap = (ImageButton) findViewById(R.id.LaeringBtn);
+            OpgaveKnap.setAlpha(100.0F);
+            Laeringknap.setAlpha(100.0F);
+            Laeringsstil();
+        }
+        }
         
 
-
-    }
         // LogudKnappen
         public void logud() {
             final Button Logudbtn = (Button) findViewById(R.id.Logudbtn);

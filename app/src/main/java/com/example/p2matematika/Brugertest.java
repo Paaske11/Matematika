@@ -1,14 +1,13 @@
 package com.example.p2matematika;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Brugertest extends AppCompatActivity {
     public static boolean testDone = false;
@@ -143,31 +142,11 @@ public class Brugertest extends AppCompatActivity {
         dinprofilbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!testDone) {
-                    startActivity(new Intent(Brugertest.this, Brugerside.class));
-                } else {
+
                     startActivity(new Intent(Brugertest.this, BrugersideEfterTest.class));
-                }
             }
         });
 
     }
-            // Knap der slutter testen
-  /*  private void afsluttest() {
-        final ImageButton afsluttest = (ImageButton) findViewById(R.id.afsluttest);
-        afsluttest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               // setTestDone(true);
-                Toast.makeText(Brugertest.this,"Testen er færdiggjort", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(Brugertest.this, BrugersideEfterTest.class));
-                testDone = true;
-            }
-
-
-        });
-
-    }*/
-
 
 }
