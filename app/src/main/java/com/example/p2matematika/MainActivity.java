@@ -9,8 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,20 +18,19 @@ public class MainActivity extends AppCompatActivity {
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-           // if(!Brugertest.testDone){
+
+
                 Intent LoginBruger = new Intent(getApplicationContext(), BrugersideEfterTest.class);
                 startActivity(LoginBruger);
                 //Koden forneden sørger for man ikke kan komme tilbage til loginside
                 finish();
-           // }
-           /* else {
-                Intent LoginBruger = new Intent(getApplicationContext(), BrugersideEfterTest.class);
-                startActivity(LoginBruger);
 
 
-            }*/
 
         }
         });
-    }
+
+
+        }
+
 }

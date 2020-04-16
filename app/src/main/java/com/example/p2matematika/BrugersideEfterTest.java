@@ -12,11 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 public class BrugersideEfterTest extends AppCompatActivity {
 
 
+
     @SuppressLint("Range")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_brugerside_efter_test);
+
 
             logud();
             tagtesten();
@@ -51,7 +53,7 @@ public class BrugersideEfterTest extends AppCompatActivity {
         TagtestBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(BrugersideEfterTest.this, Brugertest.class));
+                startActivity(new Intent(BrugersideEfterTest.this, Test_Forside.class));
 
             }
         });

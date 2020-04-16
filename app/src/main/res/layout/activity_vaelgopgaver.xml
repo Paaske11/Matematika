@@ -19,18 +19,6 @@
         app:layout_constraintVertical_bias="0.022"
         app:srcCompat="@drawable/dinprofil" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="548dp"
-        android:layout_height="121dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.134"
-        app:srcCompat="@drawable/vaelgopgavetype" />
-
     <ImageButton
         android:id="@+id/plusbtn"
         android:layout_width="255dp"
@@ -70,4 +58,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.874"
         app:srcCompat="@drawable/kommerseneree" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1083dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005"
+        app:srcCompat="@drawable/vaelgopgave" />
 </androidx.constraintlayout.widget.ConstraintLayout>

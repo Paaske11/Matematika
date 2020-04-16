@@ -60,7 +60,7 @@ public class Brugertest extends AppCompatActivity {
         Afsluttest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Lige Lorte iF's indtil jeg finder fix
+                //Lige tusind ifs indtil jeg finder fix
                 KinaetetiskPoint = 0;
                 laesendePoints = 0;
                 VisualPoints = 0;
