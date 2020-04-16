@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-
+        <activity android:name=".Plushjaelplaesende"></activity>
         <activity
             android:name=".BrugersideEfterTest"
             android:screenOrientation="sensorLandscape"
@@ -58,15 +58,6 @@
             android:configChanges="orientation"
             android:screenOrientation="sensorLandscape"
             tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".introbrugertest"
-            android:configChanges="orientation"
-            android:screenOrientation="sensorLandscape"
-            tools:ignore="LockedOrientationActivity">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Dinlaeringsstillaes"
             android:configChanges="orientation"
@@ -123,6 +114,24 @@
         </activity>
         <activity
             android:name=".Forklarkinestaetisk"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Plushjaelpkinestaetisk"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Plushjaelpvisuel"
             android:configChanges="orientation"
             android:screenOrientation="sensorLandscape"
             tools:ignore="LockedOrientationActivity">
