@@ -14,6 +14,22 @@ public class Plus_opgaver extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plus_opgaver);
         hjembtn();
+
+        //Læsende opgaver
+        if (Brugertest.laesendePoints>Brugertest.KinaetetiskPoint
+                || Brugertest.laesendePoints>Brugertest.VisualPoints) {
+
+        }
+        //Visuale opgaver
+        if (Brugertest.VisualPoints>Brugertest.KinaetetiskPoint
+                || Brugertest.VisualPoints>Brugertest.laesendePoints) {
+
+        }
+        //Kinaetetiske opgaver
+        if (Brugertest.KinaetetiskPoint>Brugertest.laesendePoints
+                || Brugertest.KinaetetiskPoint>Brugertest.VisualPoints) {
+
+        }
     }
 
     private void hjembtn() {
