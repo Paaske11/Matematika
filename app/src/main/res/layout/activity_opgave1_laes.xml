@@ -54,10 +54,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697" />
+        app:layout_constraintVertical_bias="0.694" />
 
     <TextView
         android:id="@+id/textView"
@@ -71,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <ImageButton
         android:id="@+id/hjaelp_knap"
@@ -108,5 +108,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tilbagetilopgave" />
+
+    <TextView
+        android:id="@+id/forkertsvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/forkertsvar"
+        android:textColor="#FF0000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

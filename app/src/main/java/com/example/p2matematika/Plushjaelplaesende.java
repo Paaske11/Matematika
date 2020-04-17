@@ -17,7 +17,7 @@ public class Plushjaelplaesende extends AppCompatActivity {
     }
 
     private void tilbage() {
-        ImageButton tilbage = (ImageButton) findViewById(R.id.tilbageknap);
+        ImageButton tilbage = (ImageButton) findViewById(R.id.Tilbage);
         tilbage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

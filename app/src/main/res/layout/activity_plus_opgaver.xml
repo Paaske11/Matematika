@@ -69,7 +69,7 @@
         android:id="@+id/opgave2_knap"
         android:layout_width="155dp"
         android:layout_height="135dp"
-        android:alpha="0.68"
+        android:alpha="0.66"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.417"
