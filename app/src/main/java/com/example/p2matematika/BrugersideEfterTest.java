@@ -64,12 +64,24 @@ public class BrugersideEfterTest extends AppCompatActivity {
         ImageButton LaeringsBTN = (ImageButton) findViewById(R.id.LaeringBtn);
         ImageButton OpgaveBTN = (ImageButton) findViewById(R.id.OpgaverBtn);
 
+            //Hvis læringsstil == noget
         LaeringsBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(BrugersideEfterTest.this, Forklarlaes.class));
-            }
+                if(Brugertest.VisualPoints> Brugertest.KinaetetiskPoint
+                        && Brugertest.VisualPoints > Brugertest.laesendePoints ) {
+                    startActivity(new Intent(BrugersideEfterTest.this, Forklarvisuel.class));
+                }
+                if(Brugertest.laesendePoints> Brugertest.KinaetetiskPoint
+                        && Brugertest.laesendePoints> Brugertest.VisualPoints ) {
+                    startActivity(new Intent(BrugersideEfterTest.this, Forklarlaes.class));
+                }
+                if(Brugertest.KinaetetiskPoint> Brugertest.laesendePoints
+                        && Brugertest.KinaetetiskPoint> Brugertest.VisualPoints ) {
+                    startActivity(new Intent(BrugersideEfterTest.this, Forklarkinestaetisk.class));
+                }
 
+            }
         });
 
         OpgaveBTN.setOnClickListener(new View.OnClickListener() {
