@@ -122,6 +122,7 @@ public class Brugertest extends AppCompatActivity {
                     testDone = true;
                     startActivity(new Intent(Brugertest.this, Dinlaeringsstillaes.class));
                 }
+                Plus_opgaver.opgaveDone = false;
             }
 
         });
