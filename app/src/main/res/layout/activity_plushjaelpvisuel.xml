@@ -20,8 +20,8 @@
 
     <ImageButton
         android:id="@+id/Tilbage"
-        android:layout_width="87dp"
-        android:layout_height="69dp"
+        android:layout_width="15dp"
+        android:layout_height="47dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.986"
