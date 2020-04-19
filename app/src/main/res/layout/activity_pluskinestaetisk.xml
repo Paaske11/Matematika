@@ -108,26 +108,26 @@
 
     <ImageButton
         android:id="@+id/svarbtn"
-        android:layout_width="228dp"
-        android:layout_height="84dp"
+        android:layout_width="204dp"
+        android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941"
+        app:layout_constraintVertical_bias="0.914"
         app:srcCompat="@drawable/svarknap" />
 
     <ImageButton
         android:id="@+id/hjaelpbtn"
-        android:layout_width="240dp"
-        android:layout_height="89dp"
+        android:layout_width="174dp"
+        android:layout_height="82dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941"
+        app:layout_constraintVertical_bias="0.924"
         app:srcCompat="@drawable/hjaelpknap" />
 
     <ImageButton
@@ -153,4 +153,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.021"
         app:srcCompat="@drawable/menubtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
