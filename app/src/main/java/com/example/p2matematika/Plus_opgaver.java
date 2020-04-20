@@ -35,6 +35,7 @@ public class Plus_opgaver extends AppCompatActivity {
         //Kinaetetiske opgaver
         if (Brugertest.KinaetetiskPoint>Brugertest.laesendePoints
                 && Brugertest.KinaetetiskPoint>Brugertest.VisualPoints) {
+            opgave1_kinesaetisk_knap();
 
         }
     }
@@ -64,6 +65,15 @@ public class Plus_opgaver extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Plus_opgaver.this, opgave1_visuel.class));
+            }
+        });
+    }
+    private void opgave1_kinesaetisk_knap(){
+        final ImageButton opgave1kinestaetisk = (ImageButton) findViewById(R.id.Opgave1_knap);
+        opgave1kinestaetisk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Plus_opgaver.this, Pluskinestaetisk.class));
             }
         });
     }
