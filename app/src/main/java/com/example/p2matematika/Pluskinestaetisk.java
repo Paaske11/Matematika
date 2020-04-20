@@ -3,10 +3,15 @@ package com.example.p2matematika;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class Pluskinestaetisk extends AppCompatActivity {
@@ -25,6 +30,10 @@ private ImageView objectfour;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pluskinestaetisk);
+        hjaelpbtn();
+        hjembtn();
+        menubtn();
+        svarbtn();
 
         //gør søjle 1 "clickable" og sætter dens gennesigtighed
         objectone = (ImageView) findViewById(R.id.soojleet);
@@ -91,7 +100,68 @@ private ImageView objectfour;
             }
         });
     }
-}
+
+    //Dette laver hjælp knappen så man kan få hjælp hvis man har svært ved spørgsmålet
+    private void hjaelpbtn() {
+        ImageButton hjaelpbtn = (ImageButton) findViewById(R.id.hjaelpbtn);
+        hjaelpbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Pluskinestaetisk.this, Plushjaelpkinestaetisk.class));
+            }
+        });
+    }
+
+    private void hjembtn() {
+        ImageButton hjembtn = (ImageButton) findViewById(R.id.hjembtn);
+        hjembtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Pluskinestaetisk.this, BrugersideEfterTest.class));
+            }
+        });
+    }
+
+    private void menubtn() {
+        ImageButton menubtn = (ImageButton) findViewById(R.id.menubtn);
+        menubtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Pluskinestaetisk.this, Plus_opgaver.class));
+            }
+        });
+    }
+
+    private void svarbtn() {
+        ImageButton svarbtn = (ImageButton) findViewById(R.id.svarbtn);
+        final TextView wronganswer = (TextView) findViewById(R.id.wronganswer);
+        svarbtn.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("Range")
+            @Override
+            public void onClick(View v) {
+                if (alpha1 == false && alpha2 == false && alpha3 == true && alpha4 == true) {
+                    wronganswer.setTextColor(Color.rgb(0, 128, 0));
+                    wronganswer.setAlpha(100.00F);
+                    wronganswer.setText("Rigtigt svar");
+                    new CountDownTimer(1000, 1000) {
+                        public void onFinish() {
+                            startActivity(new Intent(Pluskinestaetisk.this, Plus_opgaver.class));
+                        }
+
+                        public void onTick(long millisUntilFinished) {
+                            // millisUntilFinished    The amount of time until finished.
+                        }
+                    }.start();
+                }
+                else {
+
+                    wronganswer.setAlpha(100.00F);
+                }
+                }
+            });
+        }
+    }
+
 
 
 

@@ -109,4 +109,5 @@
     <string name="Forklaring2">Når du har svaret på alle 16 spørgsmål vil du få at vide hvilken en læringsstil som du foretrækker</string>
     <string name="opgave1_spoergsmaal">Hvad giver søjle X + Y?</string>
     <string name="forkertsvar">Forkert prøv igen</string>
+    <string name="wronganswer">Forkert svar</string>
 </resources>

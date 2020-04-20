@@ -131,7 +131,7 @@
         app:srcCompat="@drawable/hjaelpknap" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/hjembtn"
         android:layout_width="123dp"
         android:layout_height="106dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -143,7 +143,7 @@
         app:srcCompat="@drawable/dinprofil" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/menubtn"
         android:layout_width="114dp"
         android:layout_height="107dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,5 +153,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.021"
         app:srcCompat="@drawable/menubtn" />
+
+    <TextView
+        android:id="@+id/wronganswer"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:alpha="0"
+        android:text="@string/wronganswer"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
