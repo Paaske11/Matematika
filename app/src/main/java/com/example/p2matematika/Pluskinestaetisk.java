@@ -25,6 +25,8 @@ private ImageView objectthree;
 private ImageView objectfour;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,14 @@ private ImageView objectfour;
         hjembtn();
         menubtn();
         svarbtn();
+
+
+        final ImageView soejlesvar1 = (ImageView) findViewById(R.id.soojleetsvar1);
+        final ImageView soejlesvar2 = (ImageView) findViewById(R.id.soojlesvar2);
+        final ImageView soejlesvar3 = (ImageView) findViewById(R.id.soejlesvar3);
+        final ImageView soejlesvar4 = (ImageView) findViewById(R.id.soojlesvarfire);
+
+
 
         //gør søjle 1 "clickable" og sætter dens gennemsigtighed
         objectone = (ImageView) findViewById(R.id.soojleet);
@@ -44,9 +54,11 @@ private ImageView objectfour;
                     objectone.setAlpha(0.60F);
                     alpha1 = true;
                     System.out.println("Virker");
+                    soejlesvar1.setAlpha(1.00F);
                } else  {
                     objectone.setAlpha(100.00F);
                     alpha1 = false;
+                    soejlesvar1.setAlpha(0.00F);
                 }
 
             }
@@ -61,9 +73,11 @@ private ImageView objectfour;
                 if (alpha2 == false) {
                     objecttwo.setAlpha(0.6F);
                     alpha2 = true;
+                    soejlesvar2.setAlpha(1.00F);
                 } else {
                     objecttwo.setAlpha(100.00F);
                     alpha2 = false;
+                    soejlesvar2.setAlpha(0.00F);
                 }
             }
         });
@@ -77,15 +91,17 @@ private ImageView objectfour;
                 if (alpha3 == false) {
                     objectthree.setAlpha(0.60F);
                     alpha3 = true;
+                    soejlesvar3.setAlpha(1.00F);
                 } else {
                     objectthree.setAlpha(100.00F);
                     alpha3 = false;
+                    soejlesvar3.setAlpha(0F);
                 }
             }
         });
 
         //gør søjle 4 "clickable" og sætter dens gennesigtighed
-        objectfour = (ImageView) findViewById(R.id.soojlefire);
+        objectfour = (ImageView) findViewById(R.id.soojlefire2);
         objectfour.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("Range")
             @Override
@@ -93,9 +109,11 @@ private ImageView objectfour;
                 if (alpha4 == false) {
                     objectfour.setAlpha(0.60F);
                     alpha4 = true;
+                    soejlesvar4.setAlpha(1.00F);
                 } else {
                     objectfour.setAlpha(100.00F);
                     alpha4 = false;
+                    soejlesvar4.setAlpha(0.0F);
                 }
 
             }
