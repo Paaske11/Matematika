@@ -1,17 +1,16 @@
 package com.example.p2matematika;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Pluskinestaetisk extends AppCompatActivity {
@@ -35,19 +34,21 @@ private ImageView objectfour;
         menubtn();
         svarbtn();
 
-        //gør søjle 1 "clickable" og sætter dens gennesigtighed
+        //gør søjle 1 "clickable" og sætter dens gennemsigtighed
         objectone = (ImageView) findViewById(R.id.soojleet);
         objectone.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("Range")
             @Override
             public void onClick(View v) {
                 if (alpha1 == false) {
-                    objectone.setAlpha(60.00F);
+                    objectone.setAlpha(0.60F);
                     alpha1 = true;
-                } else {
+                    System.out.println("Virker");
+               } else  {
                     objectone.setAlpha(100.00F);
                     alpha1 = false;
                 }
+
             }
         });
 
@@ -58,7 +59,7 @@ private ImageView objectfour;
             @Override
             public void onClick(View v) {
                 if (alpha2 == false) {
-                    objecttwo.setAlpha(60.00F);
+                    objecttwo.setAlpha(0.6F);
                     alpha2 = true;
                 } else {
                     objecttwo.setAlpha(100.00F);
@@ -74,7 +75,7 @@ private ImageView objectfour;
             @Override
             public void onClick(View v) {
                 if (alpha3 == false) {
-                    objectthree.setAlpha(60.00F);
+                    objectthree.setAlpha(0.60F);
                     alpha3 = true;
                 } else {
                     objectthree.setAlpha(100.00F);
@@ -90,7 +91,7 @@ private ImageView objectfour;
             @Override
             public void onClick(View v) {
                 if (alpha4 == false) {
-                    objectfour.setAlpha(60.00F);
+                    objectfour.setAlpha(0.60F);
                     alpha4 = true;
                 } else {
                     objectfour.setAlpha(100.00F);
