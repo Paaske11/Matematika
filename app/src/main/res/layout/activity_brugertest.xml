@@ -25,18 +25,31 @@
             android:orientation="vertical"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="8dp">
+
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"/>
+                android:layout_height="200dp" />
 
-            <ImageView
-                android:id="@+id/questionOne"
-                android:layout_width="472dp"
-                android:layout_height="74dp"
-                android:background="@drawable/questionone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Du hjælper en person med at \nfinde vej til banegården. Du vil:"
+                android:textColor="#000000"
+                android:textSize="42dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="#FA7921" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
 
             <RadioGroup
                 android:id="@+id/RgQuestion1"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -46,8 +59,12 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Tegne eller give hende et kort."
                     android:textSize="42dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q1A2"
@@ -55,8 +72,12 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Skrive ruten ned uden et kort."
                     android:textSize="42dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q1A3"
@@ -64,33 +85,46 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere Spørgsmål"
+                    android:text=" Gå med hende og vise vejen."
                     android:textSize="42dp" />
 
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp" />
+                    android:layout_height="150dp" />
 
             </RadioGroup>
 
             <ImageView
                 android:id="@+id/scrollnedIMG"
+                android:layout_gravity="center"
                 android:layout_width="472dp"
                 android:layout_height="77dp"
                 android:background="@drawable/scrollned" />
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="50dp" />
+                android:layout_height="100dp" />
 
-            <ImageView
-                android:id="@+id/questionTwo"
-                android:layout_width="472dp"
-                android:layout_height="80dp"
-                android:background="@drawable/questiontwo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Du er usikker på, om ordet skal staves\n &quot;udmærket&quot; eller &quot;udemærket&quot;. Du vil:  "
+                android:textSize="42dp"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="#FA7921" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
 
             <RadioGroup
                 android:id="@+id/RgQuestion2"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -100,8 +134,14 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Se ordet for dig, og vælg ud fra \n den måde den ser ud."
+
                     android:textSize="42sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
 
                 <RadioButton
                     android:id="@+id/Q2A2"
@@ -109,8 +149,12 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Slå op i en ordbog."
                     android:textSize="42sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q2A3"
@@ -118,33 +162,46 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere Spørgsmål"
+                    android:text=" Skrive begge ord på papir, og \n vælge et af dem."
                     android:textSize="42sp" />
 
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp" />
+                    android:layout_height="150dp" />
 
             </RadioGroup>
 
             <ImageView
                 android:id="@+id/scrollnedIgen"
+                android:layout_gravity="center"
                 android:layout_width="472dp"
                 android:layout_height="77dp"
                 android:background="@drawable/scrollned" />
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="50dp" />
+                android:layout_height="100dp" />
 
-            <ImageView
-                android:id="@+id/questionthree"
-                android:layout_width="455dp"
-                android:layout_height="80dp"
-                android:background="@drawable/questionthree" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Du er ved at planlægge en ferie \nfor en gruppe mennesker.\nDu vil gerne høre deres mening \nom din plan. Du vil:"
+                android:textSize="42dp"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="#FA7921" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
 
             <RadioGroup
                 android:id="@+id/RgQuestion3"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -154,8 +211,12 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Bruge et kort eller en website \nfor at vise dem stederne."
                     android:textSize="42sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q3A2"
@@ -163,8 +224,12 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Give dem en kopi af rejseplanen"
                     android:textSize="42sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q3A3"
@@ -172,30 +237,45 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere Spørgsmål"
+                    android:text=" Beskrive nogle af \nhøjdepunkterne."
                     android:textSize="42sp" />
+
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="100dp"/>
+                    android:layout_height="100dp" />
             </RadioGroup>
+
             <ImageView
 
                 android:layout_width="472dp"
                 android:layout_height="77dp"
+                android:layout_gravity="center"
                 android:background="@drawable/scrollned" />
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="50dp" />
+                android:layout_height="100dp" />
 
-            <ImageView
-                android:id="@+id/questionfour"
-                android:layout_width="455dp"
-                android:layout_height="80dp"
-                android:background="@drawable/questionfour" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Du ønsker at lave en ganske speciel\nmiddagsret til familien. Du vil:"
+                android:textSize="42dp"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="#FA7921" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
 
             <RadioGroup
                 android:id="@+id/RgQuestion4"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -205,8 +285,11 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Bladrer i kogebogen for at blive \n inspireret af billederne"
                     android:textSize="42sp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q4A2"
@@ -214,8 +297,11 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Bruge en kogebog, du ved, \n indeholder en god opskrift."
                     android:textSize="42sp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q4A3"
@@ -223,30 +309,45 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere Spørgsmål"
+                    android:text=" Lave en ret du kender, \n uden at bruge opskriften."
                     android:textSize="42sp" />
+
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="100dp"/>
+                    android:layout_height="100dp" />
             </RadioGroup>
+
             <ImageView
 
                 android:layout_width="472dp"
                 android:layout_height="77dp"
+                android:layout_gravity="center"
                 android:background="@drawable/scrollned" />
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="50dp" />
+                android:layout_height="100dp" />
 
-            <ImageView
-                android:id="@+id/questionfive"
-                android:layout_width="455dp"
-                android:layout_height="80dp"
-                android:background="@drawable/questionfive" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="En gruppe turister vil vide noget \nom naturen i dit området. Du vil:"
+                android:textSize="42dp"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="#FA7921" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
 
             <RadioGroup
                 android:id="@+id/RgQuestion5"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -256,8 +357,11 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Vise dem internetbilleder, \n fotografier eller bøger \n med billeder."
                     android:textSize="42sp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q5A2"
@@ -265,8 +369,11 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere spørgsmål"
+                    android:text=" Give dem en bog eller \n brochure om naturen."
                     android:textSize="42sp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
 
                 <RadioButton
                     android:id="@+id/Q5A3"
@@ -274,20 +381,24 @@
                     android:layout_height="wrap_content"
                     android:hapticFeedbackEnabled="false"
                     android:shadowColor="#FFFFFF"
-                    android:text="Et længere Spørgsmål"
+                    android:text=" Tage dem med til et smukt \n naturområde og spadsere rundt \n sammen med dem."
                     android:textSize="42sp" />
+
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp"/>
+                    android:layout_height="50dp" />
             </RadioGroup>
+
             <ImageButton
                 android:id="@+id/afsluttest"
+                android:layout_gravity="center"
                 android:layout_width="480dp"
                 android:layout_height="120dp"
-                android:background="@drawable/afslut"/>
+                android:background="@drawable/afslut" />
+
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"/>
+                android:layout_height="100dp" />
 
         </LinearLayout>
 
