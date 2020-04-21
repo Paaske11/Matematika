@@ -175,15 +175,10 @@ private ImageView objectfour;
                 else {
 
                     wronganswer.setAlpha(100.00F);
+                    wronganswer.setTextColor(Color.rgb(255, 0, 0));
                 }
                 }
             });
         }
     }
-
-
-
-
-
-
 
