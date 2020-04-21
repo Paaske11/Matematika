@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,19 +19,28 @@ public class BrugersideEfterTest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_brugerside_efter_test);
+        EditText eftertestræv = (EditText) findViewById(R.id.reveftertest);
+        EditText førtestræv = (EditText) findViewById(R.id.revfoertest);
 
 
-            logud();
+        logud();
             tagtesten();
 
 
         // Skifter alpha, og gør de andre knapper brugelige
         if (Brugertest.testDone == true) {
+
+
             ImageButton OpgaveKnap = (ImageButton) findViewById(R.id.OpgaverBtn);
             ImageButton Laeringknap = (ImageButton) findViewById(R.id.LaeringBtn);
             OpgaveKnap.setAlpha(100.0F);
+            eftertestræv.setAlpha(1.0F);
+            førtestræv.setAlpha(0.0F);
+
+
             Laeringknap.setAlpha(100.0F);
             Laeringsstil();
+
         }
         }
         

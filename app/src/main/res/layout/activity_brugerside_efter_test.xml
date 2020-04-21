@@ -7,45 +7,17 @@
     android:background="#AEDCF7"
     tools:context=".BrugersideEfterTest">
 
-    <TextView
-        android:id="@+id/HejBrugersideTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hej"
-        android:textColor="#FA7921"
-        android:textSize="48dp"
+
+    <EditText
+        android:layout_width="616dp"
+        android:layout_height="149dp"
+        android:background="@drawable/hejbrugernavn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19999999" />
-
-    <TextView
-        android:id="@+id/BrugernavnText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Brugernavn"
-        android:textColor="#000000"
-        android:textSize="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toEndOf="@+id/HejBrugersideTextView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19999999" />
-
-    <ImageView
-        android:id="@+id/LogoLoggedIn"
-        android:layout_width="311dp"
-        android:layout_height="327dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049"
-        app:srcCompat="@drawable/raevlogo" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/Logudbtn"
@@ -54,6 +26,7 @@
         android:text="Log ud"
         android:textColor="#000000"
         android:textSize="18sp"
+        android:background="@drawable/rounded_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.223"
@@ -99,16 +72,29 @@
         app:layout_constraintVertical_bias="0.738"
         app:srcCompat="@drawable/tagtest" />
 
-    <ImageView
-        android:id="@+id/TankebobbelLoggedIn"
-        android:layout_width="279dp"
-        android:layout_height="178dp"
+    <EditText
+        android:id="@+id/revfoertest"
+        android:layout_width="491dp"
+        android:layout_height="306dp"
+        android:background="@drawable/brugerrevtekst"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintHorizontal_bias="0.943"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/raevtekst" />
+        app:layout_constraintVertical_bias="0.021" />
+
+    <EditText
+        android:id="@+id/reveftertest"
+        android:layout_width="510dp"
+        android:layout_height="306dp"
+        android:alpha="0"
+        android:background="@drawable/reveftertest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
