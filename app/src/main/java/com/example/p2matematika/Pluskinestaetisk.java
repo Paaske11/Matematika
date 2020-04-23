@@ -159,6 +159,7 @@ private ImageView objectfour;
             @Override
             public void onClick(View v) {
                 if (alpha1 == false && alpha2 == false && alpha3 == true && alpha4 == true) {
+                    Plus_opgaver.opgaveDone = true;
                     wronganswer.setTextColor(Color.rgb(0, 128, 0));
                     wronganswer.setAlpha(100.00F);
                     wronganswer.setText("Rigtigt svar");

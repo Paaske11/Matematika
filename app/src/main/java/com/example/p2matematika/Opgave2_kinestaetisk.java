@@ -149,6 +149,7 @@ public class Opgave2_kinestaetisk extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (alpha1 == false && alpha2 == true && alpha3 == true && alpha4 == false) {
+                    Plus_opgaver.opgaveDone = true;
                     wronganswer.setTextColor(Color.rgb(0, 128, 0));
                     wronganswer.setAlpha(100.00F);
                     wronganswer.setText("Rigtigt svar");
