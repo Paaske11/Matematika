@@ -14,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Opgave1_laes extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +71,7 @@ public class Opgave1_laes extends AppCompatActivity {
                     Plus_opgaver.opgaveDone = true;
                     forkert.setAlpha(100.00F);
                     forkert.setText("Rigtigt svar");
+                    Plus_opgaver.opgaveDone = true;
                     new CountDownTimer(1000, 1000) {
                         public void onFinish() {
                             startActivity(new Intent(Opgave1_laes.this, Plus_opgaver.class));

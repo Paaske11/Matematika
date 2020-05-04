@@ -15,6 +15,7 @@ public class Plus_opgaver extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plus_opgaver);
+        prepareOpg2();
 
 
 
@@ -24,18 +25,27 @@ public class Plus_opgaver extends AppCompatActivity {
         if (Brugertest.laesendePoints>Brugertest.KinaetetiskPoint
                 && Brugertest.laesendePoints>Brugertest.VisualPoints) {
             opgave1_laes_knap();
+            if(opgaveDone==true) {
+                opgave2_laeseknap();
+            }
 
         }
         //Visuale opgaver
         if (Brugertest.VisualPoints>Brugertest.KinaetetiskPoint
                 && Brugertest.VisualPoints>Brugertest.laesendePoints) {
             opgave1_visuel_knap();
+            if(opgaveDone == true) {
+                opgave2_visuelknap();
+            }
 
         }
         //Kinaetetiske opgaver
         if (Brugertest.KinaetetiskPoint>Brugertest.laesendePoints
                 && Brugertest.KinaetetiskPoint>Brugertest.VisualPoints) {
             opgave1_kinesaetisk_knap();
+
+                opgave2_kinestaetiskknap();
+
 
         }
     }
@@ -77,13 +87,42 @@ public class Plus_opgaver extends AppCompatActivity {
             }
         });
     }
+
+    private void opgave2_laeseknap(){
+        final ImageButton opg2knap = (ImageButton) findViewById(R.id.opgave2_knap);
+        opg2knap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Plus_opgaver.this, Opgave2_laes.class));
+            }
+        });
+    }
+
+    private void opgave2_visuelknap(){
+        final ImageButton opg2knap = (ImageButton) findViewById(R.id.opgave2_knap);
+        opg2knap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Plus_opgaver.this, Opgave2_visuel.class));
+            }
+        });
+    }
+    private void opgave2_kinestaetiskknap(){
+        final ImageButton opg2knap = (ImageButton) findViewById(R.id.opgave2_knap);
+        opg2knap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Plus_opgaver.this, Opgave2_kinestaetisk.class));
+            }
+        });
+    }
     @SuppressLint("Range")
     private void prepareOpg2() {
         ImageButton opg2knap = (ImageButton) findViewById(R.id.opgave2_knap);
-        if (opgaveDone == true) {
-            opg2knap.setAlpha(100.00F);
+        if (opgaveDone == false) {
+            opg2knap.setAlpha(0.68F);
         } else {
-            opg2knap.setAlpha(68.00F);
+            opg2knap.setAlpha(1F);
         }
 
     }
